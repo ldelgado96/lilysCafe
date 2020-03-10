@@ -1,0 +1,315 @@
+body{
+	margin:0; 
+	font-family:'ubuntu';
+}
+/*
+
+	SETTING THE TYPOGRAPHY
+
+*/
+
+h1,h2{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: #fff;
+	font-size:2rem;
+	margin:0;
+}
+h3,h4{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: white;
+	font-size:1.2rem;
+	margin:10px;
+	
+}
+p{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: black;
+	font-size:1rem;
+	margin:0;
+	
+}
+.welcome-txt{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: #fff;
+	font-size:2rem;
+	margin:0;
+	
+	
+}
+.container{
+	width:90%;
+	max-width:900px;
+	margin: 0 auto;
+}
+
+.container-nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+.subtitle{
+	font-weight:700;
+	color:#1792d2;
+	font-size: .75rem;
+	margin:0;
+	
+}
+.welcome-lilys-title{
+	color:#fb3e38;
+}
+
+.welcome{
+	padding:5em;
+	background-color:#fb3e38;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:white;
+}
+
+.about-section{
+	padding:30px;
+	background-color:white;
+}
+
+.opening_hours{
+	padding:50px;
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+}
+.menu-txt{
+	color:white;
+	margin:5px;
+}
+/* ------------ 
+Button Style -----------
+-----------------*/
+
+.bg-image{
+	background-image:url("imgs/quesadillapic.jpg");
+	 background-color: #404040;
+    background-blend-mode: overlay;
+	padding:100px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+	z-index:-1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1em 1.5em;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary {
+    /* background-image: linear-gradient(to left, #fb3e38, #bb0000); */
+	background-color:#f8f8f8;
+    color:black;
+
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.1);
+}
+
+#btn-2{
+	background-color:#fb3e38;
+}
+
+#btn-3{
+	background-color:#fb3e38;
+	margin-top:15px !important;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+header{
+	background:#f8f8f8;
+	padding:2em 0;
+}
+/*NAVIGATION */
+
+#nav-icon{
+	color:black;
+}
+
+.nav-bar-title{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: #fff;
+	font-size:2rem;
+	margin:0;
+	color:#fb3e38 !important;
+}
+nav ul{
+	
+	list-style:none;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	
+}
+
+nav li{
+
+	margin-left:2em;
+}
+
+
+nav a{
+	text-decoration:none;
+	color:#707070;
+	font-weight:700;
+	padding: .25em 0;
+}
+
+nav a:hover
+nav a:focus{
+	color:#1792d2;
+	
+} 
+.current-page{
+	border-bottom:1px solid #707070;
+	
+}
+
+current-page:hover{
+	color:#707070;
+}
+
+@media (max-width: 675px) {
+	.container-nav{
+		flex-direction:column;
+	}
+	header{
+		
+		text-align:center;
+	}
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+	
+	nav li{
+		margin: .5em 0;
+	}
+    
+}
+.whatever{
+	
+	height:500px !important;
+	background:pink;
+	overflow:none;
+	
+}
+
+.fuckimg{
+	width:100%;
+	object-fit:cover;
+	
+}
+
+.image-container{
+	display:inline-block;
+	position:absolute;
+	width:100%;
+	
+	
+}
+
+.whatever .row{
+	width:800px !important;
+}
+
+.whatever .col{
+	
+	margin-left:25px !important;
+	margin-right:25px !important;
+}
+
+.hours-sec{
+	color:white;
+	
+}
+/*FOOTER*/
+.page-footer{
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: black;
+	font-size:1rem;
+	margin:0;
+	
+}
+
+ul{
+	list-style:none;
+}
+
+.time{
+	float:right;
+}
+.footer-open{
+	text-align:center;
+	padding-bottom:5px;
+	
+}
+
+.page-footer a{
+	text-align:center !important;
+	color:#fb3e38 !important;
+}
+.page-footer a:hover {
+	
+	color:pink !important;
+}
+
+.footer-copyright{
+	color:white;
+	background-color: #fb3e38 !important;
+	
+}
+
+.online-service-pic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.provider-title{
+	padding:30px;
+	background-color:#fb3e38;
+	border-radius: 30px;
+	font-family:'Lora',serif;
+	font-weight:400;
+	font-size:2rem;
+	color:#fff;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.num{
+	color:white !important;
+	text-decoration:none;
+	
+}
+
+
